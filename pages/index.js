@@ -76,8 +76,7 @@ improvement in the dynamic field of software development. Looking forward to con
                 <Image src={design} width={100} height={100} />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Coding And Programming</h3>
                 <p className='py-2'>
-                Creating  applications and elegant website designs suited for your needs following core
-                design theory.
+                Creating  applications and elegant website designs suited for your needs .
                 </p>
                
               </div>
@@ -88,10 +87,10 @@ improvement in the dynamic field of software development. Looking forward to con
                 Do you have an idea for your next great website? Let's make it a
                 reality.
                 </p>
-                <h4 className='py-4 text-teal-600'>Design Tools I used</h4>
-                <p className='text-gray-800 py-1'>Photoshop</p>
-                <p className='text-gray-800 py-1'>Illustrator</p>
-                <p className='text-gray-800 py-1'>Figma</p>
+                <h4 className='py-4 text-teal-600'>Technology Used</h4>
+                <p className='text-gray-800 py-1'>ReactJs</p>
+                <p className='text-gray-800 py-1'>Javascript</p>
+                <p className='text-gray-800 py-1'>HTML and CSS</p>
               </div>
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
                 <Image src={consulting} width={100} height={100} />
