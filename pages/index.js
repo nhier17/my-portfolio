@@ -1,7 +1,10 @@
 import  Head from 'next/head'
 import {BsFillMoonStarsFill} from "react-icons/bs"
 import { AiFillLinkedin, AiFillYoutube } from "react-icons/ai"
-import { FaGithub } from "react-icons/fa"
+import { FaGithub,FaHiking } from "react-icons/fa"
+import { SiNetflix, SiYoutubegaming } from "react-icons/si"
+import { MdAddShoppingCart, MdExtension } from "react-icons/md"
+import { GiKnifeFork } from "react-icons/gi";
 import Image from "next/image"
 import deved from "../public/dev-ed-wave.png"
 import design from "../public/design.png"
@@ -122,42 +125,42 @@ improvement in the dynamic field of software development. Looking forward to con
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
         <div className='basis-1/3 flex-1'>
-        <h4 className='py-4 text-teal-600'>Games Tracker</h4>
+        <a href='https://games-tracker-17.netlify.app' className='flex py-4 text-teal-600'><SiYoutubegaming className='text-2xl'/>Games Tracker</a>
         <p className='text-gray-800 py-1'>
           A React application that lets you keep track of different games on different platforms. The games are fetched using rawg io api which updates regularly .
         </p>
           <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <h4 className='py-4 text-teal-600'>Happy trayls</h4>
+        <a href='https://happy-trayls.netlify.app' target='_blank' className='flex py-4 text-teal-600'><FaHiking className='text-2xl'/>Happy trayls</a>
         <p className='text-gray-800 py-1'>
         Happy trails is a landing web page for hikers and nature lovers. The user has access to our hiking adventures and information about varios hiking destinations. 
         </p>
-          <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+        <Image src={web2} className='rounded-lg object-cover mt-1' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <h4 className='py-4 text-teal-600'>Movie Database</h4>
+        <a href='https://netflixstreams-clone.netlify.app' target='_blank' className='flex py-4 text-teal-600'><SiNetflix className='text-2xl'/>Movie Database</a>
         <p className='text-gray-800 py-1'>
         A reactjs application that gives the user access to movies and tv shows fetched using API from themdb.com. My inspiration was trying to create a netflix clone.
         </p>
-          <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+        <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <h4 className='py-4 text-teal-600'>Shopping Cart</h4>
+        <a href='https://shopping-cart-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><MdAddShoppingCart className='text-2xl'/>Shopping Cart</a>
         <p className='text-gray-800 py-1'>
         It,s a web app that lets you add and checkout items on your shopping list while shopping.
         </p>
-          <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+        <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <h4 className='py-4 text-teal-600'>Leads Tracker</h4>
+        <a href='https://leads-tracker-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><MdExtension className='text-2xl'/>Leads Tracker</a>
         <p className='text-gray-800 py-1'>
         A chrome extension called . Based on the design, users can save tabs and links using this extension by simply clicking save tabs or simply typing the url , and can also delete the saved links.
         </p>
           <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <h4 className='py-4 text-teal-600'>Delicious Delicacies</h4>
+        <a href='https://delicious-delicacies-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><GiKnifeFork className='text-2xl'/>Delicious Delicacies</a>
         <p className='text-gray-800 py-1'>
         A react application for all good food lovers that lets the user have access to a wide range of recipes fetched using spoonacular API that updates regularly.
         </p>
