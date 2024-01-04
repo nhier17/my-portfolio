@@ -125,7 +125,7 @@ improvement in the dynamic field of software development. Looking forward to con
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
         <div className='basis-1/3 flex-1'>
-        <a href='https://games-tracker-17.netlify.app' className='flex py-4 text-teal-600'><SiYoutubegaming className='text-2xl'/>Games Tracker</a>
+        <a href='https://games-tracker-17.netlify.app' className='flex py-4 text-teal-600'><SiYoutubegaming className='text-2xl text-blue-600'/>Games Tracker</a>
         <p className='text-gray-800 py-1'>
           A React application that lets you keep track of different games on different platforms. The games are fetched using rawg io api which updates regularly .
         </p>
@@ -139,28 +139,28 @@ improvement in the dynamic field of software development. Looking forward to con
         <Image src={web2} className='rounded-lg object-cover mt-1' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <a href='https://netflixstreams-clone.netlify.app' target='_blank' className='flex py-4 text-teal-600'><SiNetflix className='text-2xl'/>Movie Database</a>
+        <a href='https://netflixstreams-clone.netlify.app' target='_blank' className='flex py-4 text-teal-600'><SiNetflix className='text-2xl text-red-800'/>Movie Database</a>
         <p className='text-gray-800 py-1'>
         A reactjs application that gives the user access to movies and tv shows fetched using API from themdb.com. My inspiration was trying to create a netflix clone.
         </p>
         <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <a href='https://shopping-cart-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><MdAddShoppingCart className='text-2xl'/>Shopping Cart</a>
+        <a href='https://shopping-cart-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><MdAddShoppingCart className='text-2xl text-black'/>Shopping Cart</a>
         <p className='text-gray-800 py-1'>
         It,s a web app that lets you add and checkout items on your shopping list while shopping.
         </p>
         <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <a href='https://leads-tracker-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><MdExtension className='text-2xl'/>Leads Tracker</a>
+        <a href='https://leads-tracker-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><MdExtension className='text-2xl text-black'/>Leads Tracker</a>
         <p className='text-gray-800 py-1'>
         A chrome extension called . Based on the design, users can save tabs and links using this extension by simply clicking save tabs or simply typing the url , and can also delete the saved links.
         </p>
           <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
-        <a href='https://delicious-delicacies-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><GiKnifeFork className='text-2xl'/>Delicious Delicacies</a>
+        <a href='https://delicious-delicacies-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><GiKnifeFork className='text-2xl text-black'/>Delicious Delicacies</a>
         <p className='text-gray-800 py-1'>
         A react application for all good food lovers that lets the user have access to a wide range of recipes fetched using spoonacular API that updates regularly.
         </p>
