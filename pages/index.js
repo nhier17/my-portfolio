@@ -54,7 +54,7 @@ improvement in the dynamic field of software development. Looking forward to con
 <AiFillYoutube />
 </div>
 <div className='relative bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden'>
-<Image src={deved} layout='fill' objectFit='cover' />
+<Image src={deved} alt='image' layout='fill' objectFit='cover' />
 </div>
       </section>
 
@@ -73,7 +73,7 @@ improvement in the dynamic field of software development. Looking forward to con
             </p>
             <div className='lg:flex gap-10 dark:bg-white'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-                <Image src={design} width={100} height={100} />
+                <Image src={design} alt='design' width={100} height={100} />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Coding And Programming</h3>
                 <p className='py-2'>
                 Creating  applications and elegant website designs suited for your needs .
@@ -81,7 +81,7 @@ improvement in the dynamic field of software development. Looking forward to con
                
               </div>
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-                <Image src={code} width={100} height={100} />
+                <Image src={code} alt='code' width={100} height={100} />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Code your dream project</h3>
                 <p className='py-2'>
                 Do you have an idea for your next great website? Let's make it a
@@ -93,7 +93,7 @@ improvement in the dynamic field of software development. Looking forward to con
                 <p className='text-gray-800 py-1'>HTML and CSS</p>
               </div>
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-                <Image src={consulting} width={100} height={100} />
+                <Image src={consulting} alt='contacts' width={100} height={100} />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Contact Information</h3>
                 <p className='text-gray-800 py-1'>Email: abrahamnhier97@gmail.com</p>
                 <p className='text-gray-800 py-1'>Phone: +254716903151</p>
@@ -128,42 +128,42 @@ improvement in the dynamic field of software development. Looking forward to con
         <p className='text-gray-800 py-1'>
           A React application that lets you keep track of different games on different platforms. The games are fetched using rawg io api which updates regularly .
         </p>
-          <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+          <Image src={web1} alt='web' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
         <a href='https://happy-trayls.netlify.app' target='_blank' className='flex py-4 text-teal-600'><FaHiking className='text-2xl'/>Happy trayls</a>
         <p className='text-gray-800 py-1'>
         Happy trails is a landing web page for hikers and nature lovers. The user has access to our hiking adventures and information about varios hiking destinations. 
         </p>
-        <Image src={web2} className='rounded-lg object-cover mt-1' width={'100%'} height={'100%'} layout='responsive'/>
+        <Image src={web2} alt='title' className='rounded-lg object-cover mt-1' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
         <a href='https://netflixstreams-clone.netlify.app' target='_blank' className='flex py-4 text-teal-600'><SiNetflix className='text-2xl text-red-800'/>Movie Database</a>
         <p className='text-gray-800 py-1'>
         A reactjs application that gives the user access to movies and tv shows fetched using API from themdb.com. My inspiration was trying to create a netflix clone.
         </p>
-        <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+        <Image src={web3} alt='title' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
         <a href='https://shopping-cart-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><MdAddShoppingCart className='text-2xl text-black'/>Shopping Cart</a>
         <p className='text-gray-800 py-1'>
         It,s a web app that lets you add and checkout items on your shopping list while shopping.
         </p>
-        <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+        <Image src={web4} alt='title' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
         <a href='https://leads-tracker-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><MdExtension className='text-2xl text-black'/>Leads Tracker</a>
         <p className='text-gray-800 py-1'>
         A chrome extension called . Based on the design, users can save tabs and links using this extension by simply clicking save tabs or simply typing the url , and can also delete the saved links.
         </p>
-          <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+          <Image src={web5} alt='title' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
         <a href='https://delicious-delicacies-17.netlify.app' target='_blank' className='flex py-4 text-teal-600'><GiKnifeFork className='text-2xl text-black'/>Delicious Delicacies</a>
         <p className='text-gray-800 py-1'>
         A react application for all good food lovers that lets the user have access to a wide range of recipes fetched using spoonacular API that updates regularly.
         </p>
-          <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+          <Image src={web6} alt='title' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         </div>
       </section>
