@@ -1,6 +1,7 @@
 import  Head from 'next/head'
 import {BsFillMoonStarsFill} from "react-icons/bs"
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai"
+import { AiFillLinkedin, AiFillYoutube } from "react-icons/ai"
+import { FaGithub } from "react-icons/fa"
 import Image from "next/image"
 import deved from "../public/dev-ed-wave.png"
 import design from "../public/design.png"
@@ -11,7 +12,7 @@ import web2 from "../public/trayls.png"
 import web3 from "../public/movies.png"
 import web4 from "../public/cart.png"
 import web5 from "../public/leads.png"
-import web6 from "../public/web6.png"
+import web6 from "../public/delicioud.png"
 import { useState } from 'react'
 
 export default function Home() {
@@ -38,11 +39,15 @@ export default function Home() {
 <div className='text-center p-10  dark:bg-white'>
   <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Abraham Nhier</h2>
   <h3 className='text-2xl py-2 md:text-3xl'>Developer and designer.</h3>
-  <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Enthusiatic junior developer providing services for programming, design content needs and also ready to learn .Join me and lets get cracking!</p>
+  <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>
+  Iam an aspiring junior software developer passionate about coding and problem solving.
+So far I'm profficient in Javascript, ReactJs, HTML and CSS. I am open to learning and dedicated to continuous 
+improvement in the dynamic field of software development. Looking forward to contribute to innovative projects and collaborate with like-minded individuals.
+  </p>
 </div>
 <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-<AiFillTwitterCircle />
-<AiFillLinkedin />
+<a href='https://github.com/nhier17' target='_blank'><FaGithub /></a>
+<a href='https://www.linkedin.com/in/abraham-nhier-369308291/' target='_blank'><AiFillLinkedin /></a>
 <AiFillYoutube />
 </div>
 <div className='relative bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden'>
@@ -54,16 +59,14 @@ export default function Home() {
         <div>
           <h3 className='text-2xl py-2'>Services I offer</h3>
           <p className='text-md py-5 leading-8 text-gray-800'>
-          Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+          Since the beginning of my journey as a I've gained experienced in various technologies including ReactJs, Javascript, HTML and CSS.
+            I've used the s
+              <span className="text-teal-500"> skills </span>
+              and created different <span className="text-teal-500">projects </span>
+              and collaborated with talanted people to help me with code reviews and expand my knowledge.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200' >
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              I am open to learning more and dedicated to continuous improvement the dynamic field of software development.
             </p>
             <div className='lg:flex gap-10 dark:bg-white'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
@@ -73,10 +76,7 @@ export default function Home() {
                 Creating  applications and elegant website designs suited for your needs following core
                 design theory.
                 </p>
-                <h4 className='py-4 text-teal-600'>Technology Used</h4>
-                <p className='text-gray-800 py-1'>ReactJs</p>
-                <p className='text-gray-800 py-1'>Javascript</p>
-                <p className='text-gray-800 py-1'>HTML and CSS</p>
+               
               </div>
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
                 <Image src={code} width={100} height={100} />
@@ -92,15 +92,10 @@ export default function Home() {
               </div>
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
                 <Image src={consulting} width={100} height={100} />
-                <h3 className='text-lg font-medium pt-8 pb-2'>Consulting</h3>
-                <p className='py-2'>
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
-                </p>
-                <h4 className='py-4 text-teal-600'>Design Tools I used</h4>
-                <p className='text-gray-800 py-1'>Photoshop</p>
-                <p className='text-gray-800 py-1'>Illustrator</p>
-                <p className='text-gray-800 py-1'>Figma</p>
+                <h3 className='text-lg font-medium pt-8 pb-2'>Contact Information</h3>
+                <p className='text-gray-800 py-1'>Email: abrahamnhier97@gmail.com</p>
+                <p className='text-gray-800 py-1'>Phone: +254716903151</p>
+                <a href='https://www.linkedin.com/in/abraham-nhier-369308291/' target='_blank' className='text-gray-800 py-1'>Visit my linkedin</a>
               </div>
             </div>
         </div>
@@ -109,36 +104,63 @@ export default function Home() {
         <div>
           <h3 className='text-2xl py-2'>Portfolio</h3>
           <p className="text-md py-2 leading-8 text-gray-800">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
+              Since the beginning of my journey as a
+              developer, I've work on different 
+              <span className="text-teal-500"> projects </span>
+              using different <span className="text-teal-500">technologies. </span>
+                        </p>
             <p className="text-md py-2 leading-8 text-gray-800">
             
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              Below  are examples of projects i've worked on so far.
             </p>
+            <h4 className='py-4 text-teal-600'>Technology Used</h4>
+                <p className='text-gray-800 py-1'>ReactJs</p>
+                <p className='text-gray-800 py-1'>Javascript</p>
+                <p className='text-gray-800 py-1'>HTML and CSS</p>
+                <h4 className='py-4 text-teal-600'>Framework Used</h4>
+                <p className='text-gray-800 py-1'>Git</p>
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
         <div className='basis-1/3 flex-1'>
+        <h4 className='py-4 text-teal-600'>Games Tracker</h4>
+        <p className='text-gray-800 py-1'>
+          A React application that lets you keep track of different games on different platforms. The games are fetched using rawg io api which updates regularly .
+        </p>
           <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
+        <h4 className='py-4 text-teal-600'>Happy trayls</h4>
+        <p className='text-gray-800 py-1'>
+        Happy trails is a landing web page for hikers and nature lovers. The user has access to our hiking adventures and information about varios hiking destinations. 
+        </p>
           <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
+        <h4 className='py-4 text-teal-600'>Movie Database</h4>
+        <p className='text-gray-800 py-1'>
+        A reactjs application that gives the user access to movies and tv shows fetched using API from themdb.com. My inspiration was trying to create a netflix clone.
+        </p>
           <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
+        <h4 className='py-4 text-teal-600'>Shopping Cart</h4>
+        <p className='text-gray-800 py-1'>
+        It,s a web app that lets you add and checkout items on your shopping list while shopping.
+        </p>
           <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
+        <h4 className='py-4 text-teal-600'>Leads Tracker</h4>
+        <p className='text-gray-800 py-1'>
+        A chrome extension called . Based on the design, users can save tabs and links using this extension by simply clicking save tabs or simply typing the url , and can also delete the saved links.
+        </p>
           <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         <div className='basis-1/3 flex-1'>
+        <h4 className='py-4 text-teal-600'>Delicious Delicacies</h4>
+        <p className='text-gray-800 py-1'>
+        A react application for all good food lovers that lets the user have access to a wide range of recipes fetched using spoonacular API that updates regularly.
+        </p>
           <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
         </div>
         </div>
