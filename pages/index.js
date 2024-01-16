@@ -43,8 +43,8 @@ export default function Home() {
   <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Abraham Nhier</h2>
   <h3 className="text-2xl py-2 md:text-3xl">Developer and designer.</h3>
   <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
-  Iam an aspiring junior software developer passionate about coding and problem solving.
-So far I'm profficient in Javascript, ReactJs, HTML and CSS. I am open to learning and dedicated to continuous 
+  Iam a junior software developer passionate about coding and problem solving.
+So far I've developed user friendly projects using technologies and libraries like Javascript, ReactJs, HTML and CSS. I a knowledge of developing restful APIs with Node.js. I am open to learning and dedicated to continuous 
 improvement in the dynamic field of software development. Looking forward to contribute to innovative projects and collaborate with like-minded individuals.
   </p>
 </div>
