@@ -69,7 +69,7 @@ improvement in the dynamic field of software development. Looking forward to con
               and collaborated with talanted people to help me with code reviews and expand my knowledge.
               </p>
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200" >
-              I am open to learning more and dedicated to continuous improvement the dynamic field of software development.
+              Due to my passion for Health and Wellness my goal is to develop a user friendly application where clients can meet their fitness goals regardless of where they are Creating a fitness community.
             </p>
             <div className="lg:flex gap-10 dark:bg-white">
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
