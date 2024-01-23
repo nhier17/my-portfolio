@@ -43,9 +43,11 @@ export default function Home() {
   <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Abraham Nhier</h2>
   <h3 className="text-2xl py-2 md:text-3xl">Developer and designer.</h3>
   <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
-  Iam a junior software developer passionate about coding and problem solving.
-So far I've developed user friendly projects using technologies and libraries like Javascript, ReactJs, HTML and CSS. I also have a knowledge of developing restful APIs with Node.js. I am open to learning and dedicated to continuous 
-improvement in the dynamic field of software development. Looking forward to contribute to innovative projects and collaborate with like-minded individuals.
+  I am a software developer passionate about coding and problem solving with a solid foundation in both front-end and back-end technologies.
+So far I've developed responsive and intuitive user interfaces  using technologies and libraries like Javascript, ReactJs, HTML and CSS. 
+I have designed and developed restful APIs with Node.js and integrating them with diverse databases like MongoDB. 
+My experience with version control systems i.e Git ensures smooth collaboration and effective code management.
+ I am open  to learning and staying updated on the latest industry trends which will allow me to incorporate cutting edge solutions into my work. Looking forward to contribute to innovative projects and collaborate with like-minded individuals.
   </p>
 </div>
 <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -60,17 +62,7 @@ improvement in the dynamic field of software development. Looking forward to con
 
       <section>
         <div>
-          <h3 className="text-2xl py-2">Services I offer</h3>
-          <p className="text-md py-5 leading-8 text-gray-800">
-          Since the beginning of my journey as a I've gained experienced in various technologies including ReactJs, Javascript, HTML and CSS.
-            I've used the s
-              <span className="text-teal-500"> skills </span>
-              and created different <span className="text-teal-500">projects </span>
-              and collaborated with talanted people to help me with code reviews and expand my knowledge.
-              </p>
-              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200" >
-              Due to my passion for Health and Wellness my goal is to develop a user friendly application where clients can meet their fitness goals regardless of where they are Creating a fitness community.
-            </p>
+
             <div className="lg:flex gap-10 dark:bg-white">
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image src={design} alt="design" width={100} height={100} />
@@ -87,10 +79,7 @@ improvement in the dynamic field of software development. Looking forward to con
                 Do you have an idea for your next great website? Let's make it a
                 reality.
                 </p>
-                <h4 className="py-4 text-teal-600">Technology Used</h4>
-                <p className="text-gray-800 py-1">ReactJs</p>
-                <p className="text-gray-800 py-1">Javascript</p>
-                <p className="text-gray-800 py-1">HTML and CSS</p>
+               
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image src={consulting} alt="contacts" width={100} height={100} />
@@ -107,7 +96,7 @@ improvement in the dynamic field of software development. Looking forward to con
           <h3 className="text-2xl py-2">Portfolio</h3>
           <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a
-              developer, I've work on different 
+              developer, I've worked on different 
               <span className="text-teal-500"> projects </span>
               using different <span className="text-teal-500">technologies. </span>
                         </p>
