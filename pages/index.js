@@ -93,17 +93,8 @@ My experience with version control systems i.e Git ensures smooth collaboration 
       </section>
       <section>
         <div>
-          <h3 className="text-2xl py-2">Portfolio</h3>
-          <p className="text-md py-2 leading-8 text-gray-800">
-              Since the beginning of my journey as a
-              developer, I've worked on different 
-              <span className="text-teal-500"> projects </span>
-              using different <span className="text-teal-500">technologies. </span>
-                        </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
-            
-              Below  are examples of projects i've worked on so far.
-            </p>
+          <h3 className="text-2xl py-2">Projects</h3>
+    
             <h4 className="py-4 text-teal-600">Technology Used</h4>
                 <p className="text-gray-800 py-1">ReactJs</p>
                 <p className="text-gray-800 py-1">Javascript</p>
