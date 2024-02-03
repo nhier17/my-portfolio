@@ -7,6 +7,8 @@ A portfolio web app made with Next.js to display my qualifications, skills, educ
 ## Linkedin
     https://linkedin.com/in/nhier
 ## GitHub
-    
-
-
+    https://github.com/nhier17
+## Email
+       abrahamnhier97@gmail.com     
+## Phone
+    +254716903151
