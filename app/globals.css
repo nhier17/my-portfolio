@@ -83,17 +83,3 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
-.profile-container {
-  perspective: 1000px;
-}
-.profile-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  transform: rotateY(20deg) rotateX(10deg);
-  transition: transform 0.3s;
-}
-.profile-picture:hover {
-  transform: rotateY(0deg) rotateX(0deg) scale(1.1);
-}
