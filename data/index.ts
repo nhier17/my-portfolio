@@ -77,6 +77,7 @@ export const navItems = [
       img: "/p1.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://talk-the-talk.vercel.app/",
+      slug: "talk-the-talk"
     },
     {
       id: 2,
@@ -85,6 +86,7 @@ export const navItems = [
       img: "/p2.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://my-fitness17.netlify.app/",
+      slug: "my-fitness-app"
     },
     {
       id: 3,
@@ -93,6 +95,7 @@ export const navItems = [
       img: "/p3.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://post-it17.vercel.app/",
+      slug: "post-it"
     },
     {
       id: 4,
@@ -101,6 +104,7 @@ export const navItems = [
       img: "/p4.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://shoppers-paradise.netlify.app/",
+      slug: "shoppers-paradise"
     },
   ];
   
@@ -126,8 +130,8 @@ export const navItems = [
     {
       quote:
         "Collaborating with Abraham was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Abraham's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Abraham is the ideal partner.",
-      name: "Senior Software Engineer Safaricom",
-      title: "Director of AlphaStream Technologies",
+      name: "Dennis Njenga",
+      title: "Senior Software Engineer Safaricom",
     },
     {
       quote:
@@ -174,32 +178,33 @@ export const navItems = [
     {
       id: 1,
       title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      desc: "Contributed to the development of a dynamic web platform using React.js. Enhanced user interactivity and engagement through the implementation of interactive UI components and state management.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Full Stack Developer",
+      desc: "Led the end-to-end development of web applications with a tech stack comprising React.js, Node.js, and PostgreSQL. Designed and implemented RESTful APIs, ensured robust user authentication and authorization, and optimized database queries for improved performance and scalability.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Freelance App Developer",
+      desc: "Spearheaded the development of a mobile application for a client, overseeing the project from initial concept through to deployment on both iOS and Android app stores. Delivered a user-centric design and seamless functionality, meeting all client specifications and deadlines.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
       title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      desc: "Led the frontend development team in creating and maintaining user-facing features for web applications. Utilized modern frontend technologies to ensure responsive, high-performance, and accessible user interfaces. Collaborated closely with designers and backend developers to deliver cohesive and high-quality products.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
   ];
+  
   
   export const socialMedia = [
     {

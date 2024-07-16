@@ -1,10 +1,11 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "@/components/ui/Pin";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 mt-10">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -60,12 +61,14 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
+                <Link href={`/projects/${item.slug}`}>
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    View Details
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
+                </Link>
               </div>
             </PinContainer>
           </div>
