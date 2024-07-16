@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { navItems } from "@/data";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -24,6 +26,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <FloatingNav navItems={navItems} />
         {children}
         </ThemeProvider>
         </body>
