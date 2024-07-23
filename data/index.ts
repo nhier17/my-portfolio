@@ -121,7 +121,7 @@ export const navItems = [
       des: "A ReactJS application that grants users access to a curated collection of movies and TV shows fetched from TheMovieDB API. Immerse yourself in a Netflix-like experience with this inspired project.",
       img: "/movies2.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://movie-streams.netlify.app/",
+      link: "https://movies-streams.netlify.app/",
       slug: "movie-streams",
     }, 
     {
@@ -130,7 +130,7 @@ export const navItems = [
       des: "Games tracker is a free, open-source, mobile app that helps you keep track of your favorite games.",
       img: "/games.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://games-tracker17.netlify.app/",
+      link: "https://games-tracker-17.netlify.app/",
       slug: "games-tracker"
     }
   ];
