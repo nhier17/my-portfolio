@@ -14,7 +14,10 @@ const ProjectDetails = ({ params }) => {
   }
 
   return (
-    <div className="py-20 px-4">
+    <div className="py-20 px-4 mt-10">
+      <Link href="/projects" className="text-purple hover:underline">
+        ← Back to Projects
+      </Link>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
           <PinContainer title={project.title} href={project.link}>

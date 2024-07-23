@@ -20,13 +20,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={manrope.className}>
+      <FloatingNav navItems={navItems} />
       <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-        <FloatingNav navItems={navItems} />
+        
         {children}
         </ThemeProvider>
         </body>
