@@ -106,6 +106,33 @@ export const navItems = [
       link: "https://shoppers-paradise.netlify.app/",
       slug: "shoppers-paradise"
     },
+    {
+      id: 5,
+      title: "Share Me",
+      des: "Share Me is a full-stack social media application built using Sanity and React, offering users a platform to share images and engage with other users through comments. With Share Me, users can create posts, upload images, and interact with content from other users through a seamless and intuitive interface. Whether you're sharing your latest adventures, expressing your creativity, or connecting with friends and like-minded individuals, Share Me provides a dynamic and vibrant space for social interaction. Join the community today and start sharing your world with Share Me!",
+      img: "/shareme.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://share-me17.netlify.app/",
+      slug: "share-me"
+    },
+    {
+      id: 6,
+      title: "Movie Streams",
+      des: "A ReactJS application that grants users access to a curated collection of movies and TV shows fetched from TheMovieDB API. Immerse yourself in a Netflix-like experience with this inspired project.",
+      img: "/movies2.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://movie-streams.netlify.app/",
+      slug: "movie-streams",
+    }, 
+    {
+      id: 7,
+      title: "Games Tracker",
+      des: "Games tracker is a free, open-source, mobile app that helps you keep track of your favorite games.",
+      img: "/games.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https://games-tracker17.netlify.app/",
+      slug: "games-tracker"
+    }
   ];
   
   export const testimonials = [
