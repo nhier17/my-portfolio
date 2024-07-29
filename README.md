@@ -1,7 +1,9 @@
+# Abraham Nhier
+
 <div align="center">
   <br />
     <a href="https://abrahamnhier.vercel.app/" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
+      <img src="https://github.com/nhier17/my-portfolio/blob/main/public/home1.png" alt="Project Banner">
     </a>
   <br />
 
@@ -15,6 +17,8 @@
   <h3 align="center">My Portfolio</h3>
 
 </div>
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
