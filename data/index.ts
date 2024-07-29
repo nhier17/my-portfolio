@@ -72,6 +72,15 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Care Pulse",
+      des: "A healthcare platform that streamlines patient registration, appointment scheduling, and medical records, and learn to implement complex forms and SMS notifications.",
+      img: "/home1.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://care-pulse-io.vercel.app/",
+      slug: "care-pulse"
+    },
+    {
+      id: 2,
       title: "Talk the Talk",
       des: "Discover talk the talk, an AI powered application designed to revolutionize podcast creation. Leveraging the power of OpenAI, users can effortlessly generate high-quality podcasts and custom thumbnails.",
       img: "/p1.png",
@@ -80,22 +89,13 @@ export const navItems = [
       slug: "talk-the-talk"
     },
     {
-      id: 2,
+      id: 3,
       title: "My Fitness App",
       des: "My Fitness offers a comprehensive platform to track your workouts, monitor your progress, and stay motivated on your fitness journey. Whether you're a beginner or a seasoned athlete, our app provides personalized workout plans tailored to your fitness level and goals. With intuitive features such as exercise logging, calorie tracking, and progress analytics, you'll have everything you need to optimize your training and transform your body. Join our community today and take the first step towards a healthier, stronger you!.",
       img: "/p2.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://my-fitness17.netlify.app/",
       slug: "my-fitness-app"
-    },
-    {
-      id: 3,
-      title: "Post-It",
-      des: "Post It is a vibrant and interactive full-stack app empowering users to easily create, share, and engage with posts in a collaborative space. Featuring a sleek and intuitive interface, users can effortlessly browse, interact with, and contribute content, making every experience enjoyable and seamless.",
-      img: "/p3.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://post-it17.vercel.app/",
-      slug: "post-it"
     },
     {
       id: 4,
@@ -108,6 +108,15 @@ export const navItems = [
     },
     {
       id: 5,
+      title: "Post-It",
+      des: "Post It is a vibrant and interactive full-stack app empowering users to easily create, share, and engage with posts in a collaborative space. Featuring a sleek and intuitive interface, users can effortlessly browse, interact with, and contribute content, making every experience enjoyable and seamless.",
+      img: "/p3.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      link: "https://post-it17.vercel.app/",
+      slug: "post-it"
+    },
+    {
+      id: 6,
       title: "Share Me",
       des: "Share Me is a full-stack social media application built using Sanity and React, offering users a platform to share images and engage with other users through comments. With Share Me, users can create posts, upload images, and interact with content from other users through a seamless and intuitive interface. Whether you're sharing your latest adventures, expressing your creativity, or connecting with friends and like-minded individuals, Share Me provides a dynamic and vibrant space for social interaction. Join the community today and start sharing your world with Share Me!",
       img: "/shareme.png",
@@ -116,7 +125,7 @@ export const navItems = [
       slug: "share-me"
     },
     {
-      id: 6,
+      id: 7,
       title: "Movie Streams",
       des: "A ReactJS application that grants users access to a curated collection of movies and TV shows fetched from TheMovieDB API. Immerse yourself in a Netflix-like experience with this inspired project.",
       img: "/movies2.png",
@@ -125,7 +134,7 @@ export const navItems = [
       slug: "movie-streams",
     }, 
     {
-      id: 7,
+      id: 8,
       title: "Games Tracker",
       des: "Games tracker is a free, open-source, mobile app that helps you keep track of your favorite games.",
       img: "/games.png",
