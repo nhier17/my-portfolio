@@ -1,5 +1,7 @@
 # Abraham Nhier
 
+Hi, I am Abraham and this is my portfolio showcasing my skills and passion as a software developer. Built with Next.js, Framer, Three.js, and Tailwind CSS, gain insight into my technical expertise among other attributes that define me as a developer.
+
 <div align="center">
   <br />
     <a href="https://abrahamnhier.vercel.app/" target="_blank">
