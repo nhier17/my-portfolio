@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Care Pulse",
       des: "A healthcare platform that streamlines patient registration, appointment scheduling, and medical records, and learn to implement complex forms and SMS notifications.",
-      img: "/home1.png",
+      img: "/care.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://care-pulse-io.vercel.app/",
       slug: "care-pulse"
@@ -83,7 +83,7 @@ export const navItems = [
       id: 2,
       title: "Talk the Talk",
       des: "Discover talk the talk, an AI powered application designed to revolutionize podcast creation. Leveraging the power of OpenAI, users can effortlessly generate high-quality podcasts and custom thumbnails.",
-      img: "/p1.png",
+      img: "/talk.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://talk-the-talk.vercel.app/",
       slug: "talk-the-talk"

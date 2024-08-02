@@ -2,8 +2,10 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "@/components/ui/Pin";
 import Link from "next/link";
+import * as Sentry from "@sentry/nextjs";
 
 const RecentProjects = () => {
+  Sentry.metrics.set("user_view_projects", "profile visited");
   return (
     <div className="py-20 mt-10">
       <h1 className="heading">
