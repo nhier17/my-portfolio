@@ -10,6 +10,9 @@ const manrope = Manrope({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Abraham Nhier",
   description: "My portfolio",
+  icons: {
+    icon: "/main.jpeg",
+  }
 };
 
 export default function RootLayout({
