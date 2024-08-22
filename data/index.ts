@@ -98,7 +98,16 @@ export const navItems = [
       slug: "my-fitness-app"
     },
     {
-      id: 4,
+      id: 3,
+      title: "Money Wave",
+      des: "MoneyWave is a comprehensive financial management app designed to streamline user interactions with their bank accounts and transactions. The app leverages Plaid's API for secure and efficient account linking, enabling users to access and manage their financial data in real time.",
+      img: "/moneywave.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://moneywave.vercel.app/",
+      slug: "money-wave"
+    },
+    {
+      id: 5,
       title: "Shoppers Paradise",
       des: "Discover a world of endless shopping possibilities with Shoppers Paradise. Our free and open-source mobile app is your ultimate shopping companion, providing a seamless experience to explore and track your favorite products.",
       img: "/p4.png",
@@ -107,7 +116,7 @@ export const navItems = [
       slug: "shoppers-paradise"
     },
     {
-      id: 5,
+      id: 6,
       title: "Post-It",
       des: "Post It is a vibrant and interactive full-stack app empowering users to easily create, share, and engage with posts in a collaborative space. Featuring a sleek and intuitive interface, users can effortlessly browse, interact with, and contribute content, making every experience enjoyable and seamless.",
       img: "/p3.png",
@@ -116,7 +125,7 @@ export const navItems = [
       slug: "post-it"
     },
     {
-      id: 6,
+      id: 7,
       title: "Share Me",
       des: "Share Me is a full-stack social media application built using Sanity and React, offering users a platform to share images and engage with other users through comments. With Share Me, users can create posts, upload images, and interact with content from other users through a seamless and intuitive interface. Whether you're sharing your latest adventures, expressing your creativity, or connecting with friends and like-minded individuals, Share Me provides a dynamic and vibrant space for social interaction. Join the community today and start sharing your world with Share Me!",
       img: "/shareme.png",
@@ -125,7 +134,7 @@ export const navItems = [
       slug: "share-me"
     },
     {
-      id: 7,
+      id: 8,
       title: "Movie Streams",
       des: "A ReactJS application that grants users access to a curated collection of movies and TV shows fetched from TheMovieDB API. Immerse yourself in a Netflix-like experience with this inspired project.",
       img: "/movies2.png",
@@ -134,7 +143,7 @@ export const navItems = [
       slug: "movie-streams",
     }, 
     {
-      id: 8,
+      id: 9,
       title: "Games Tracker",
       des: "Games tracker is a free, open-source, mobile app that helps you keep track of your favorite games.",
       img: "/games.png",
