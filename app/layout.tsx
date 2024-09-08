@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={manrope.className}>
+      <body className={manrope.className}>
       <FloatingNav navItems={navItems} />
       <ThemeProvider
           attribute="class"
