@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import { navItems } from "@/data";
+
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -23,7 +22,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={manrope.className}>
-      <FloatingNav navItems={navItems} />
       <ThemeProvider
           attribute="class"
           defaultTheme="dark"

@@ -117,12 +117,12 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Post-It",
-      des: "Post It is a vibrant and interactive full-stack app empowering users to easily create, share, and engage with posts in a collaborative space. Featuring a sleek and intuitive interface, users can effortlessly browse, interact with, and contribute content, making every experience enjoyable and seamless.",
-      img: "/p3.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://post-it17.vercel.app/",
-      slug: "post-it"
+      title: "HireHub",
+      des: "HireHub is a dynamic and interactive LinkedIn-inspired full-stack application built with Python Flask and React. Designed to simulate a professional networking platform, HireHub enables users to explore job opportunities, connect with other professionals, and share career updates within an engaging interface",
+      img: "/hh.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      link: "https://hirehub17.vercel.app",
+      slug: "hire-hub"
     },
     {
       id: 7,
