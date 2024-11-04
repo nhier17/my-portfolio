@@ -24,14 +24,11 @@ Hi, I am Abraham a software developer based in Nairobi, Kenya and this is my por
 
 ## Contact Me
 
-### LinkedIn
-    https://www.linkedin.com/in/nhier/
+### LinkedIn:
+   https://www.linkedin.com/in/nhier/
 
-### Email
-    abrahamnhier97@gmail.com
+### Email: abrahamnhier97@gmail.com
 
-### GitHub
-    https://github.com/nhier17
+### GitHub: https://github.com/nhier17
 
-### Phone 
-    +254716903151
+### Phone: +254716903151
