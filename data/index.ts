@@ -75,7 +75,7 @@ export const navItems = [
       title: "Care Pulse",
       des: "Care Pulse is a comprehensive healthcare patient management system designed to streamline and enhance the patient experience. This application allows patients to effortlessly register, book, and manage their appointments with doctors. It features administrative tools for healthcare providers, enabling efficient scheduling, confirmation, and cancellation of appointments. Additionally, the system offers SMS notifications to keep patients informed about their appointments. Built with Next.js, TypeScript, Tailwind CSS, and Appwrite, Care Pulse prioritizes a seamless user experience and efficient management processes.",
       img: "/care.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/fm.svg"],
       link: "https://care-pulse-io.vercel.app/",
       slug: "care-pulse"
     },
@@ -84,7 +84,7 @@ export const navItems = [
       title: "Talk the Talk",
       des: "Discover talk the talk, an AI powered application designed to revolutionize podcast creation. Leveraging the power of OpenAI, users can effortlessly generate high-quality podcasts and custom thumbnails.",
       img: "/talk.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/fm.svg"],
       link: "https://talk-the-talk.vercel.app/",
       slug: "talk-the-talk"
     },
@@ -93,61 +93,70 @@ export const navItems = [
       title: "My Fitness App",
       des: "My Fitness offers a comprehensive platform to track your workouts, monitor your progress, and stay motivated on your fitness journey. Whether you're a beginner or a seasoned athlete, our app provides personalized workout plans tailored to your fitness level and goals. With intuitive features such as exercise logging, calorie tracking, and progress analytics, you'll have everything you need to optimize your training and transform your body. Join our community today and take the first step towards a healthier, stronger you!.",
       img: "/p2.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/stream.svg", "/c.svg"],
       link: "https://my-fitness17.netlify.app/",
       slug: "my-fitness-app"
     },
     {
-      id: 3,
+      id: 5,
       title: "Money Wave",
       des: "MoneyWave is a comprehensive financial management app designed to streamline user interactions with their bank accounts and transactions. The app leverages Plaid's API for secure and efficient account linking, enabling users to access and manage their financial data in real time.",
       img: "/moneywave.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/gsap.svg"],
       link: "https://moneywave.vercel.app/",
       slug: "money-wave"
     },
     {
-      id: 5,
+      id: 6,
+      title: "PitchHub",
+      des: "Pitch Hub is a platform designed to help entrepreneurs, innovators, and startup enthusiasts create, refine, and share their startup pitches. It offers a user-friendly interface to build engaging pitches, receive feedback, and connect with a network of mentors, investors, and fellow entrepreneurs.",
+      img: "/pitch.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/Sanity.svg"],
+      link: "https://pitch-hub.vercel.app/",
+      slug: "pitch-hub"
+    },
+    {
+      id: 7,
       title: "Shoppers Paradise",
       des: "Discover a world of endless shopping possibilities with Shoppers Paradise. Our free and open-source mobile app is your ultimate shopping companion, providing a seamless experience to explore and track your favorite products.",
       img: "/p4.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/gsap.svg"],
       link: "https://shoppers-paradise.netlify.app/",
       slug: "shoppers-paradise"
     },
     {
-      id: 6,
+      id: 8,
       title: "HireHub",
       des: "HireHub is a dynamic and interactive LinkedIn-inspired full-stack application built with Python Flask and React. Designed to simulate a professional networking platform, HireHub enables users to explore job opportunities, connect with other professionals, and share career updates within an engaging interface",
       img: "/hh.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/c.svg"],
       link: "https://hirehub17.vercel.app",
       slug: "hire-hub"
     },
     {
-      id: 7,
+      id: 9,
       title: "Share Me",
       des: "Share Me is a full-stack social media application built using Sanity and React, offering users a platform to share images and engage with other users through comments. With Share Me, users can create posts, upload images, and interact with content from other users through a seamless and intuitive interface. Whether you're sharing your latest adventures, expressing your creativity, or connecting with friends and like-minded individuals, Share Me provides a dynamic and vibrant space for social interaction. Join the community today and start sharing your world with Share Me!",
       img: "/shareme.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/Sanity.svg", "/gsap.svg"],
       link: "https://share-me17.netlify.app/",
       slug: "share-me"
     },
     {
-      id: 8,
+      id: 10,
       title: "Movie Streams",
       des: "A ReactJS application that grants users access to a curated collection of movies and TV shows fetched from TheMovieDB API. Immerse yourself in a Netflix-like experience with this inspired project.",
       img: "/movies2.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/gsap.svg"],
       link: "https://movies-streams.netlify.app/",
       slug: "movie-streams",
     }, 
     {
-      id: 9,
+      id: 11,
       title: "Games Tracker",
       des: "Games tracker is a free, open-source, mobile app that helps you keep track of your favorite games.",
       img: "/games.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
       link: "https://games-tracker-17.netlify.app/",
       slug: "games-tracker"
     }
