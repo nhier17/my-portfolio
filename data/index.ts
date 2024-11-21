@@ -108,6 +108,15 @@ export const navItems = [
     },
     {
       id: 6,
+      title: "Storify",
+      des: "Storify is a modern storage management and file sharing platform designed for effortless file organization and collaboration. Built with Next.js 15, Appwrite Node SDK, and a cutting-edge tech stack, Storify provides an intuitive and secure way to upload, organize, and share files across devices.",
+      img: "/storify.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg"],
+      link: "https://storify-io.vercel.app/",
+      slug: "storify"
+    },
+    {
+      id: 7,
       title: "PitchHub",
       des: "Pitch Hub is a platform designed to help entrepreneurs, innovators, and startup enthusiasts create, refine, and share their startup pitches. It offers a user-friendly interface to build engaging pitches, receive feedback, and connect with a network of mentors, investors, and fellow entrepreneurs.",
       img: "/pitch.png",
@@ -116,7 +125,7 @@ export const navItems = [
       slug: "pitch-hub"
     },
     {
-      id: 7,
+      id: 8,
       title: "Shoppers Paradise",
       des: "Discover a world of endless shopping possibilities with Shoppers Paradise. Our free and open-source mobile app is your ultimate shopping companion, providing a seamless experience to explore and track your favorite products.",
       img: "/p4.png",
@@ -125,7 +134,7 @@ export const navItems = [
       slug: "shoppers-paradise"
     },
     {
-      id: 8,
+      id: 9,
       title: "HireHub",
       des: "HireHub is a dynamic and interactive LinkedIn-inspired full-stack application built with Python Flask and React. Designed to simulate a professional networking platform, HireHub enables users to explore job opportunities, connect with other professionals, and share career updates within an engaging interface",
       img: "/hh.png",
@@ -134,7 +143,7 @@ export const navItems = [
       slug: "hire-hub"
     },
     {
-      id: 9,
+      id: 10,
       title: "Share Me",
       des: "Share Me is a full-stack social media application built using Sanity and React, offering users a platform to share images and engage with other users through comments. With Share Me, users can create posts, upload images, and interact with content from other users through a seamless and intuitive interface. Whether you're sharing your latest adventures, expressing your creativity, or connecting with friends and like-minded individuals, Share Me provides a dynamic and vibrant space for social interaction. Join the community today and start sharing your world with Share Me!",
       img: "/shareme.png",
@@ -143,7 +152,7 @@ export const navItems = [
       slug: "share-me"
     },
     {
-      id: 10,
+      id: 11,
       title: "Movie Streams",
       des: "A ReactJS application that grants users access to a curated collection of movies and TV shows fetched from TheMovieDB API. Immerse yourself in a Netflix-like experience with this inspired project.",
       img: "/movies2.png",
@@ -152,7 +161,7 @@ export const navItems = [
       slug: "movie-streams",
     }, 
     {
-      id: 11,
+      id: 12,
       title: "Games Tracker",
       des: "Games tracker is a free, open-source, mobile app that helps you keep track of your favorite games.",
       img: "/games.png",
