@@ -1,83 +1,117 @@
-import { FaLocationArrow } from "react-icons/fa6";
+"use client";
+
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { Suspense, useState } from 'react';
+import { Canvas } from '@react-three/fiber';
+import { Center, OrbitControls } from '@react-three/drei';
 import { projects } from "@/data";
-import { PinContainer } from "@/components/ui/Pin";
-import Link from "next/link";
-import * as Sentry from "@sentry/nextjs";
+import CanvasLoader from '@/components/Loading';
+import DemoComputer from '@/components/DemoComputer';
+import Link from 'next/link';
+import Image from 'next/image';
+import { FaLocationArrow } from "react-icons/fa6";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-const RecentProjects = () => {
-  Sentry.metrics.set("user_view_projects", "profile visited");
+const projectCount = projects.length;
+
+const Projects = () => {
+  const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
+
+  const handleNavigation = (direction: string) => {
+    setSelectedProjectIndex((prevIndex: number) => {
+      if (direction === 'previous') {
+        return prevIndex === 0 ? projectCount - 1 : prevIndex - 1;
+      } else {
+        return prevIndex === projectCount - 1 ? 0 : prevIndex + 1;
+      }
+    })
+  }
+
+  useGSAP(() => {
+    gsap.fromTo(`.animatedText`, { opacity: 0 }, { opacity: 1, duration: 1, stagger: 0.2, ease: 'power2.inOut' });
+  }, [selectedProjectIndex]);
+
+  const currentProject = projects[selectedProjectIndex];
+
   return (
-    <div className="py-20 mt-10">
-      <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
-      </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((item) => (
-          <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
-            key={item.id}
-          >
-            <PinContainer
-            title={item.title}
-            href={item.link}
-            >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <img src="/bg.png" alt="bgimg" />
-                </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
-                />
-              </div>
+  <section className="c-space my-20">
+    <p className="head-text">A selection of my projects</p>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {item.title}
-              </h1>
-              <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
-              >
-                {item.des}
-              </p>
+    <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
+      <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
+        <div className="absolute top-0 right-0">
+          <Image 
+            src={currentProject?.spottlight || ''} 
+            alt="spotlight" 
+            width={100} 
+            height={100} 
+            className="w-full h-96 object-cover rounded-xl"
+          />
+        </div>
 
-              <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
-                    <div
-                      key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
-                    >
-                      <img src={icon} alt="icon5" className="p-2" />
-                    </div>
-                  ))}
-                </div>
-                <Link href={`/projects/${item.slug}`}>
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    View Details
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
-                </Link>
+        <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
+          <Image 
+            src={currentProject?.logo || ''} 
+            alt="logo" 
+            width={100} 
+            height={100} 
+            className="w-10 h-10 shadow-sm"
+          />
+        </div>
+
+        <div className="flex flex-col gap-5 text-white-600 my-5">
+          <p className="text-white text-2xl font-semiboldanimatedText">{currentProject.title}</p>
+          <p className="animatedText">{currentProject.des}</p>
+          <p className="animatedText">{currentProject.subdesc}</p>
+        </div>
+
+        <div className="flex items-center justify-between flex-wrap gap-5">
+          <div className="flex items-center gap-5\3">
+            {currentProject.iconLists.map((icon,index) => (
+              <div key={index}>
+                  <img src={icon} alt="icon5" className="p-2" />
               </div>
-            </PinContainer>
+            ))}
           </div>
-        ))}
+
+          <Link 
+            href={currentProject.link} 
+            target="_blank"
+            className="flex items-center gap-2 cursor-pointer text-white-600"
+          >
+            <p className="button">Check Live Site</p>
+            <FaLocationArrow className="ml-2 w-3 h-3" />
+          </Link>
+        </div>
+
+        <div className="flex justify-between items-center mt-7">
+          <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
+            <FaArrowLeft className="w-5 h-5" />
+          </button>
+          <button className="arrow-btn" onClick={() => handleNavigation('next')}>
+            <FaArrowRight className="w-5 h-5" />
+          </button>
+        </div>
+      </div>
+
+      <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
+        <Canvas>
+          <ambientLight intensity={Math.PI} />
+          <directionalLight position={[10, 10, 5]} />
+          <Center>
+            <Suspense fallback={<CanvasLoader />}>
+              <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
+                <DemoComputer img={currentProject.img} />
+              </group>
+            </Suspense>
+          </Center>
+          <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+        </Canvas>
       </div>
     </div>
+</section>
   );
 };
 
-export default RecentProjects;
+export default Projects;

@@ -1,66 +1,69 @@
-"use client"
+"use client";
 
-import React from 'react'
-import {
-   Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle, } from '@/components/ui/card';
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import ContactForm from "@/components/ContactForm";
+import UseAlert from "@/hooks/useAlert";
+import Alert from "@/components/Alert";
+import Link from "next/link";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { CiMail } from "react-icons/ci";
-import { IoCopyOutline } from "react-icons/io";
-import { FaPhone,FaLinkedin, FaGithub } from "react-icons/fa";
-
-
-const Contacts = () => {
-    const handleCopy = () => {
-        navigator.clipboard.writeText('abrahamnhier97@gmail.com');
-        alert('Email copied to clipboard!');
-      };
+const Contact = () => {
+  const { alert } = UseAlert();
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
-       <Card  className="max-w-sm p-6 rounded-lg shadow-lg">
-        <div className="flex justify-center mb-4">
-        <Avatar  size="large" className="w-24 h-24">
-  <AvatarImage src="/prof.JPEG"  />
-  <AvatarFallback>AN</AvatarFallback>
-</Avatar>
-        </div>
-        <h3 className="text-center mb-2">Abraham Nhier</h3>
-        <p className="text-center text-gray-500 mb-4">Software Engineer</p>
-        <div className="space-y-4">
-           <div className="flex items-center justify-between">
-            <div className="flex items-center">
-                <CiMail className="w-4 h-4 mr-2" />
-               <p>abrahamnhier97@gmail.com</p> 
-            </div>
-            <Button onClick={handleCopy} className="ml-2 text-sm text-blue-500">Copy</Button>
-            </div> 
-            <div className="flex items-center">
-               <FaPhone className="w-4 h-4 mr-2 text-gray-500" /> 
-               <p>+254716903151</p>
-            </div>
-            <div className="flex items-center">
-            <FaLinkedin className="w-4 h-4 mr-2 text-gray-500" />
-            <a href="https://www.linkedin.com/in/nhier/" target="_blank" rel="noopener noreferrer" className="text-blue-500">
-              <p>LinkedIn</p>
-            </a>
-          </div>
-          <div className="flex items-center">
-            <FaGithub name="github" className="w-4 h-4 mr-2 text-gray-500" />
-            <a href="https://github.com/nhier17" target="_blank" rel="noopener noreferrer" className="text-blue-500">
-              <p>GitHub</p>
-            </a>
-          </div>
-        </div>
-        </Card> 
-    </div>
-  )
-}
+    <section className="c-space my-20">
+      {alert.show && <Alert {...alert} />}
 
-export default Contacts
+      <div className="relative min-h-screen flex items-center justify-center flex-col">
+        <Image
+          src="/terminal.png"
+          alt="terminal-bg"
+          className="absolute inset-0 min-h-screen"
+          width={1000}
+          height={1000}
+        />
+        <div className="relative z-10 flex flex-col md:flex-row items-center justify-center gap-5">
+          <div className="flex flex-col items-center md:items-start">
+          <Avatar className="w-32 h-32">
+            <AvatarImage src="/prof.JPEG" />
+            <AvatarFallback>AN</AvatarFallback>
+          </Avatar>
+          <h4 className="mt-4 text-white text-2xl font-bold text-center md:text-left">
+            Abraham Nhier
+          </h4>
+          <p className="text-white-600 text-lg text-center md:text-left">
+            Full Stack Engineer
+          </p>
+          <div className="flex gap-4 mt-4">
+            <Link
+              href="https://github.com/nhier17"
+              target="_blank"
+              className="text-white hover:text-gray-300 transition"
+            >
+              <FaGithub size={30} />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/nhier"
+              target="_blank"
+              className="text-white hover:text-blue-500 transition"
+            >
+                <FaLinkedin size={30} />
+              </Link>
+            </div>
+          </div>
+          <div className="contact-container">
+            <h3 className="head-text">Let&apos;s talk</h3>
+          <p className="text-lg text-white-600 mt-3">
+            Whether you&apos;re looking to build a new website, improve your
+            existing platform, or bring a unique project to life, I&apos;m here to help.
+          </p>
+          <ContactForm />
+        </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;

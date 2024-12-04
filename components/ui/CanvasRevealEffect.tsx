@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import React, { useMemo, useRef } from "react";
-import { ShaderMaterial as ThreeShaderMaterial, Vector2, Vector3, PlaneGeometry, CustomBlending, SrcAlphaFactor, OneFactor, GLSL3 } from "three";
+import * as THREE from 'three';
 
 export const CanvasRevealEffect = ({
   animationSpeed = 0.4,
@@ -191,7 +191,7 @@ const ShaderMaterial = ({
   uniforms: Uniforms;
 }) => {
   const { size } = useThree();
-  const ref = useRef<THREE.Mesh>();
+  const ref = useRef< THREE.Mesh>();
   let lastFrameTime = 0;
 
   useFrame(({ clock }) => {
@@ -229,14 +229,14 @@ const ShaderMaterial = ({
         case "uniform3fv":
           preparedUniforms[uniformName] = {
             value: uniform.value.map((v: number[]) =>
-              new Vector3().fromArray(v)
+              new THREE.Vector3().fromArray(v)
             ),
             type: "3fv",
           };
           break;
         case "uniform2f":
           preparedUniforms[uniformName] = {
-            value: new Vector2().fromArray(uniform.value),
+            value: new THREE.Vector2().fromArray(uniform.value),
             type: "2f",
           };
           break;
@@ -248,14 +248,14 @@ const ShaderMaterial = ({
 
     preparedUniforms["u_time"] = { value: 0, type: "1f" };
     preparedUniforms["u_resolution"] = {
-      value: new Vector2(size.width * 2, size.height * 2),
+      value: new THREE.Vector2(size.width * 2, size.height * 2),
     }; // Initialize u_resolution
     return preparedUniforms;
   };
 
   // Shader material
   const material = useMemo(() => {
-    const materialObject = new ThreeShaderMaterial({
+    const materialObject = new THREE.ShaderMaterial({
       vertexShader: `
       precision mediump float;
       in vec2 coordinates;
@@ -271,10 +271,10 @@ const ShaderMaterial = ({
       `,
       fragmentShader: source,
       uniforms: getUniforms(),
-      glslVersion: GLSL3,
-      blending: CustomBlending,
-      blendSrc: SrcAlphaFactor,
-      blendDst: OneFactor,
+      glslVersion: THREE.GLSL3,
+      blending: THREE.CustomBlending,
+      blendSrc: THREE.SrcAlphaFactor,
+      blendDst: THREE.OneFactor,
     });
 
     return materialObject;
