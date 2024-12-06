@@ -87,7 +87,6 @@ export const navItems = [
       spottlight: "/spotlight/spotlight1.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/fm.svg"],
       link: "https://care-pulse-io.vercel.app/",
-      slug: "care-pulse",
     },
     {
       id: 2,
@@ -104,7 +103,6 @@ export const navItems = [
       spottlight: "/spotlight/spotlight2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/fm.svg"],
       link: "https://talk-the-talk.vercel.app/",
-      slug: "talk-the-talk",
     },
     {
       id: 3,
@@ -123,7 +121,6 @@ export const navItems = [
       spottlight: "/spotlight/spotlight3.png",  
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/stream.svg", "/c.svg"],
       link: "https://my-fitness17.netlify.app/",
-      slug: "my-fitness-app",
     },
     {
       id: 5,
@@ -140,7 +137,6 @@ export const navItems = [
       spottlight: "/spotlight/spotlight4.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/gsap.svg"],
       link: "https://moneywave.vercel.app/",
-      slug: "money-wave",
     },
     {
       id: 6,
@@ -157,7 +153,6 @@ export const navItems = [
       spottlight: "/spotlight/spotlight5.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg"],
       link: "https://storify-io.vercel.app/",
-      slug: "storify",
     },
     {
       id: 7,
@@ -174,7 +169,6 @@ export const navItems = [
       spottlight: "/spotlight/spotlight3.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/Sanity.svg"],
       link: "https://pitch-hub.vercel.app/",
-      slug: "pitch-hub",
     },
     {
       id: 8,
@@ -191,7 +185,6 @@ export const navItems = [
       spottlight: "/spotlight/spotlight2.png",
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/gsap.svg"],
       link: "https://shoppers-paradise.netlify.app/",
-      slug: "shoppers-paradise",
     },
     {
       id: 9,
@@ -208,34 +201,54 @@ export const navItems = [
       spottlight: "/spotlight/spotlight5.png",
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/c.svg"],
       link: "https://hirehub17.vercel.app",
-      slug: "hire-hub",
     },
     {
       id: 10,
       title: "Share Me",
       des: "Share Me is a full-stack social media application built using Sanity and React, offering users a platform to share images and engage with other users through comments. With Share Me, users can create posts, upload images, and interact with content from other users through a seamless and intuitive interface. Whether you're sharing your latest adventures, expressing your creativity, or connecting with friends and like-minded individuals, Share Me provides a dynamic and vibrant space for social interaction. Join the community today and start sharing your world with Share Me!",
-      img: "/shareme.png",
+      subdesc: "A social media app for sharing images and engaging with other users.",
+      img: "/videos/shareme.mp4",
+      logo: "/logo/shareme-logo.png",
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spottlight: "/spotlight/spotlight4.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/Sanity.svg", "/gsap.svg"],
       link: "https://share-me17.netlify.app/",
-      slug: "share-me"
     },
     {
       id: 11,
       title: "Movie Streams",
       des: "A ReactJS application that grants users access to a curated collection of movies and TV shows fetched from TheMovieDB API. Immerse yourself in a Netflix-like experience with this inspired project.",
-      img: "/movies2.png",
+      subdesc: "A movie streaming app for accessing a curated collection of movies and TV shows.",
+      img: "/videos/movies.mp4",
+      logo: "/logo/movie-logo.png",
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spottlight: "/spotlight/spotlight1.png",
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/gsap.svg"],
       link: "https://movies-streams.netlify.app/",
-      slug: "movie-streams",
     }, 
     {
       id: 12,
       title: "Games Tracker",
       des: "Games tracker is a free, open-source, mobile app that helps you keep track of your favorite games.",
-      img: "/games.png",
+      subdesc: "A mobile app for tracking your favorite games.",
+      img: "/videos/game.mp4",
+      logo: "/logo/game-logo.png",
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spottlight: "/spotlight/spotlight3.png",
       iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
       link: "https://games-tracker-17.netlify.app/",
-      slug: "games-tracker"
     }
   ];
   
