@@ -112,11 +112,9 @@ export const navItems = [
       img: "/videos/my-fitness.mp4",
       logo: "/logo/myfitness-logo.png",
       logoStyle: {
-        backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        backgroundColor: '#0E1F38',
+        border: '0.2px solid #0E2D58',
+        boxShadow: '0px 0px 60px 0px #2F67B64D',
       },
       spottlight: "/spotlight/spotlight3.png",  
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/stream.svg", "/c.svg"],
@@ -191,7 +189,7 @@ export const navItems = [
       title: "HireHub",
       des: "HireHub is a dynamic and interactive LinkedIn-inspired full-stack application built with Python Flask and React. Designed to simulate a professional networking platform, HireHub enables users to explore job opportunities, connect with other professionals, and share career updates within an engaging interface.",
       subdesc: "LinkedIn-inspired platform for professional networking and job exploration.",
-      img: "/hh.png",
+      img: "/videos/hirehub.mp4",
       logo: "/logo/hirehub-logo.png",
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -240,7 +238,7 @@ export const navItems = [
       des: "Games tracker is a free, open-source, mobile app that helps you keep track of your favorite games.",
       subdesc: "A mobile app for tracking your favorite games.",
       img: "/videos/game.mp4",
-      logo: "/logo/game-logo.png",
+      logo: "/logo/ignite.png",
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
