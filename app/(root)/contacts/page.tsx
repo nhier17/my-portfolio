@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 import UseAlert from "@/hooks/useAlert";
 import Alert from "@/components/Alert";
@@ -16,12 +15,10 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <Image
+        <img
           src="/terminal.png"
           alt="terminal-bg"
           className="absolute inset-0 min-h-screen"
-          width={1000}
-          height={1000}
         />
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-center gap-5">
           <div className="flex flex-col items-center md:items-start">
