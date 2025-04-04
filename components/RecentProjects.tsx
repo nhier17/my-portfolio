@@ -1,15 +1,15 @@
 "use client";
 
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { Suspense, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { Center, OrbitControls } from '@react-three/drei';
+import { Canvas } from "@react-three/fiber";
+import { Center, OrbitControls } from "@react-three/drei";
 import { projects } from "@/data";
-import CanvasLoader from './Loading';
-import DemoComputer from './DemoComputer';
-import Link from 'next/link';
-import Image from 'next/image';
+import CanvasLoader from "./Loading";
+import DemoComputer from "./DemoComputer";
+import Link from "next/link";
+import Image from"next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 

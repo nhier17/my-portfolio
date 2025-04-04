@@ -72,6 +72,22 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Fanikiwa",
+      des: "Fanikiwa is a Full Stack Interview Personal Assistant Platform powered by a Real-Time AI Voice Agent. It utilizes Vapi with Gemini for voice-driven interview simulations, providing instant feedback. Built with Next.js 15, Firebase, and Tailwind CSS 4, the platform offers seamless authentication, personalized interview questions, and an intuitive user experience.",
+      subdesc: "Your smart companion for mastering interviews with confidence",
+      img: "/videos/fanikiwa.mp4",
+      logo: "/logo/fanikiwa.png",
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spottlight: "/spotlight/spotlight2.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/fm.svg"],
+      link: "https://fanikiwa.vercel.app",
+    },
+    {
+      id: 2,
       title: "Care Pulse",
       des: "Care Pulse is a comprehensive healthcare patient management system designed to streamline and enhance the patient experience. This application allows patients to effortlessly register, book, and manage their appointments with doctors. It features administrative tools for healthcare providers, enabling efficient scheduling, confirmation, and cancellation of appointments. Additionally, the system offers SMS notifications to keep patients informed about their appointments. Built with Next.js, TypeScript, Tailwind CSS, and Appwrite, Care Pulse prioritizes a seamless user experience and efficient management processes.",
       subdesc: "A robust healthcare app facilitating appointment booking and management with ease.",
@@ -89,7 +105,7 @@ export const navItems = [
       link: "https://care-pulse-io.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Talk the Talk",
       des: "Discover talk the talk, an AI powered application designed to revolutionize podcast creation. Leveraging the power of OpenAI, users can effortlessly generate high-quality podcasts and custom thumbnails.",
       subdesc: "AI-powered platform for seamless podcast creation.",
@@ -105,7 +121,7 @@ export const navItems = [
       link: "https://talk-the-talk.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "My Fitness App",
       des: "My Fitness offers a comprehensive platform to track your workouts, monitor your progress, and stay motivated on your fitness journey. Whether you're a beginner or a seasoned athlete, our app provides personalized workout plans tailored to your fitness level and goals. With intuitive features such as exercise logging, calorie tracking, and progress analytics, you'll have everything you need to optimize your training and transform your body. Join our community today and take the first step towards a healthier, stronger you!.",
       subdesc: "A fitness app to track workouts and monitor progress effectively.",
@@ -319,31 +335,19 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Contributed to the development of a dynamic web platform using React.js. Enhanced user interactivity and engagement through the implementation of interactive UI components and state management.",
+      title: "Full Stack Developer",
+      company: "Total Fitness Connection",
+      desc: "Built a comprehensive gym management platform using Next.js and PostgreSQL, streamlining membership tracking and improving operational efficiency by 30%. Led the end-to-end development of a client-facing fitness app, boosting user engagement by 25% through intuitive design and performance optimization.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Full Stack Developer",
-      desc: "Led the end-to-end development of web applications with a tech stack comprising React.js, Node.js, and PostgreSQL. Designed and implemented RESTful APIs, ensured robust user authentication and authorization, and optimized database queries for improved performance and scalability.",
-      className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
       title: "Freelance App Developer",
-      desc: "Spearheaded the development of a mobile application for a client, overseeing the project from initial concept through to deployment on both iOS and Android app stores. Delivered a user-centric design and seamless functionality, meeting all client specifications and deadlines.",
+      company: "FreeLance",
+      desc: "Developed Sensei Factory for a client, a scalable course hosting platform enabling educators to create, manage, and deliver interactive online courses. Integrated secure authentication, intuitive UI, and user management features, streamlining virtual learning and improving instructor-student collaboration.",
       className: "md:col-span-2",
       thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Led the frontend development team in creating and maintaining user-facing features for web applications. Utilized modern frontend technologies to ensure responsive, high-performance, and accessible user interfaces. Collaborated closely with designers and backend developers to deliver cohesive and high-quality products.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
     },
   ];
   
