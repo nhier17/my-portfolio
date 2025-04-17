@@ -56,19 +56,18 @@ const ContactForm = () => {
         console.error(error);
   
         showAlert({
-          show: true,
           text: "I didn't receive your message 😢",
           type: "danger",
         });
       } finally {
         setLoading(false);
-        setTimeout(() => hideAlert(false), 3000);
+        setTimeout(() => hideAlert(), 3000);
       }
     };
 
   return (
        <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="mt-12 flex flex-col space-y-7">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="w-full flex flex-col gap-7">
         <CustomInput 
           fieldType={FormFieldType.INPUT}
           control={form.control}

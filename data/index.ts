@@ -83,7 +83,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
       spottlight: "/spotlight/spotlight2.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/fm.svg"],
+      iconLists: ["/images/next.svg", "/images/tail.svg", "/images/ts.svg", "/images/appwrite.svg", "/images/fm.svg"],
       link: "https://fanikiwa.vercel.app",
     },
     {
@@ -101,7 +101,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
       spottlight: "/spotlight/spotlight1.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/fm.svg"],
+      iconLists: ["/images/next.svg", "/images/tail.svg", "/images/ts.svg", "/images/appwrite.svg", "/images/fm.svg"],
       link: "https://care-pulse-io.vercel.app/",
     },
     {
@@ -117,7 +117,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
       spottlight: "/spotlight/spotlight2.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/fm.svg"],
+      iconLists: ["/images/next.svg", "/images/tail.svg", "/images/ts.svg", "/images/appwrite.svg", "/images/fm.svg"],
       link: "https://talk-the-talk.vercel.app/",
     },
     {
@@ -133,7 +133,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #2F67B64D',
       },
       spottlight: "/spotlight/spotlight3.png",  
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/images/re.svg", "/images/tail.svg", "/images/js.svg", "/images/stream.svg", "/images/c.svg"],
       link: "https://my-fitness17.netlify.app/",
     },
     {
@@ -149,7 +149,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #2F67B64D',
       },
       spottlight: "/spotlight/spotlight4.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/gsap.svg"],
+      iconLists: ["/images/next.svg", "/images/tail.svg", "/images/ts.svg", "/images/appwrite.svg", "/images/gsap.svg"],
       link: "https://moneywave.vercel.app/",
     },
     {
@@ -165,7 +165,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
       spottlight: "/spotlight/spotlight5.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg"],
+      iconLists: ["/images/next.svg", "/images/tail.svg", "/images/ts.svg", "/images/appwrite.svg"],
       link: "https://storify-io.vercel.app/",
     },
     {
@@ -181,7 +181,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
       spottlight: "/spotlight/spotlight3.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/Sanity.svg"],
+      iconLists: ["/images/next.svg", "/images/tail.svg", "/images/ts.svg", "/images/Sanity.svg"],
       link: "https://pitch-hub.vercel.app/",
     },
     {
@@ -197,7 +197,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
       spottlight: "/spotlight/spotlight2.png",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/images/re.svg", "/images/tail.svg", "/images/js.svg", "/images/three.svg", "/images/gsap.svg"],
       link: "https://shoppers-paradise.netlify.app/",
     },
     {
@@ -213,7 +213,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
       spottlight: "/spotlight/spotlight5.png",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/images/re.svg", "/images/tail.svg", "/images/js.svg", "/images/three.svg", "/images/c.svg"],
       link: "https://hirehub17.vercel.app",
     },
     {
@@ -229,7 +229,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
       spottlight: "/spotlight/spotlight4.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/Sanity.svg", "/gsap.svg"],
+      iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/Sanity.svg", "/images/gsap.svg"],
       link: "https://share-me17.netlify.app/",
     },
     {
@@ -245,7 +245,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
       spottlight: "/spotlight/spotlight1.png",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/images/re.svg", "/images/tail.svg", "/images/js.svg", "/images/three.svg", "/images/gsap.svg"],
       link: "https://movies-streams.netlify.app/",
     }, 
     {
@@ -261,7 +261,7 @@ export const navItems = [
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
       spottlight: "/spotlight/spotlight3.png",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
+      iconLists: ["/images/re.svg", "/images/tail.svg", "/images/js.svg"],
       link: "https://games-tracker-17.netlify.app/",
     }
   ];
@@ -303,32 +303,32 @@ export const navItems = [
     {
       id: 1,
       name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      img: "/images/cloud.svg",
+      nameImg: "/images/cloudName.svg",
     },
     {
       id: 2,
       name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      img: "/images/app.svg",
+      nameImg: "/images/appName.svg",
     },
     {
       id: 3,
       name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      img: "/images/host.svg",
+      nameImg: "/images/hostName.svg",
     },
     {
       id: 4,
       name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      img: "/images/s.svg",
+      nameImg: "/images/streamName.svg",
     },
     {
       id: 5,
       name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      img: "/images/dock.svg",
+      nameImg: "/images/dockerName.svg",
     },
   ];
   
@@ -339,7 +339,7 @@ export const navItems = [
       company: "Total Fitness Connection",
       desc: "Built a comprehensive gym management platform using Next.js and PostgreSQL, streamlining membership tracking and improving operational efficiency by 30%. Led the end-to-end development of a client-facing fitness app, boosting user engagement by 25% through intuitive design and performance optimization.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/images/exp1.svg",
     },
     {
       id: 2,
@@ -347,7 +347,7 @@ export const navItems = [
       company: "FreeLance",
       desc: "Developed Sensei Factory for a client, a scalable course hosting platform enabling educators to create, manage, and deliver interactive online courses. Integrated secure authentication, intuitive UI, and user management features, streamlining virtual learning and improving instructor-student collaboration.",
       className: "md:col-span-2",
-      thumbnail: "/exp3.svg",
+      thumbnail: "/images/exp3.svg",
     },
   ];
   
@@ -355,14 +355,86 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "/images/git.svg",
+      link: "https://github.com/nhier17",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/images/twit.svg",
+      link: "https://twitter.com/nhier17",
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/images/link.svg",
+      link: "https://www.linkedin.com/in/nhier",
     },
   ];
+
+  export const words = [
+    { text: "Ideas", imgPath: "/images/ideas.svg" },
+    { text: "Concepts", imgPath: "/images/concepts.svg" },
+    { text: "Designs", imgPath: "/images/designs.svg" },
+    { text: "Code", imgPath: "/images/code.svg" },
+    { text: "Ideas", imgPath: "/images/ideas.svg" },
+    { text: "Concepts", imgPath: "/images/concepts.svg" },
+    { text: "Designs", imgPath: "/images/designs.svg" },
+    { text: "Code", imgPath: "/images/code.svg" },
+  ];
+  
+  export const counterItems = [
+    { value: 4, suffix: "+", label: "Years of Experience" },
+    { value: 50, suffix: "+", label: "Satisfied Clients" },
+    { value: 50, suffix: "+", label: "Completed Projects" },
+    { value: 90, suffix: "%", label: "Client Retention Rate" },
+  ];
+  
+  export const techStackIcons = [
+    {
+      name: "Frontend Development",
+      imgSrc: ["/images/re.svg", "/images/next.svg", "/images/js.svg", "/images/ts.svg" ],
+    },
+    {
+      name: "Backend Development",
+      imgSrc: ["/images/python.svg", "/images/node.svg"],
+    },
+    {
+      name: "Serverless Frameworks",
+      imgSrc: ["/images/appwrite.svg", "/images/drizzle.svg", "/images/firebase.svg", "/images/supabase.svg"],
+    },
+    {
+      name: "UI Styling & Components",
+      imgSrc: ["/images/tail.svg", "/images/shadcnui.svg", "/images/gsap.svg"],
+    },
+    {
+      name: "Database Management",
+      imgSrc: ["/images/postgresql.svg", "/images/mongodb.svg", "/images/mysql.svg"],
+    },
+    {
+      name: "Design",
+      imgSrc: ["/images/figma.svg"],
+    },
+    {
+      name: "Version Control",
+      imgSrc: ["/images/git.svg"],
+    },
+  ];
+
+  export const abilities = [
+    {
+      imgPath: "/images/seo.png",
+      title: "Quality Focus",
+      desc: "Delivering high-quality results while maintaining attention to every detail.",
+    },
+    {
+      imgPath: "/images/chat.png",
+      title: "Reliable Communication",
+      desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    },
+    {
+      imgPath: "/images/time.png",
+      title: "On-Time Delivery",
+      desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    },
+  ];
+  
+  

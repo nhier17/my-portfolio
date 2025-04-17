@@ -1,52 +1,81 @@
-import React from 'react'
-import { FaLocationArrow } from "react-icons/fa6";
-import MagicButton from "./MagicButton";
-import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+"use client";
+
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+
+import AnimatedCounter from "./AnimatedCounter";
+import Button from "./Button";
+import { words } from "@/data";
+import HeroExperience from "./models/hero/HeroExperience";
 
 const Hero = () => {
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
+    );
+  });
+
   return (
-    <div className="pb-20 pt-36">
-      <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
-        />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
-      </div>
-      <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
-       absolute top-0 left-0 flex items-center justify-center"
-      >
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
-        />
+    <section id="hero" className="relative overflow-hidden section-padding">
+      <div className="absolute top-0 left-0 z-10">
+        <img src="/images/bg.png" alt="" />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />          
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Abraham👋, a Software Developer based in Nairobi, Kenya.
-          </p>
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
+      <div className="hero-layout">
+        {/* LEFT: Hero Content */}
+        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+          <div className="flex flex-col gap-7">
+            <div className="hero-text">
+              <h1>
+                Shaping
+                <span className="slide">
+                  <span className="wrapper">
+                    {words.map((word, index) => (
+                      <span
+                        key={index}
+                        className="flex items-center md:gap-3 gap-1 pb-2"
+                      >
+                        <img
+                          src={word.imgPath}
+                          alt="person"
+                          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
+                        />
+                        <span>{word.text}</span>
+                      </span>
+                    ))}
+                  </span>
+                </span>
+              </h1>
+              <h1>into user-centric projects</h1>
+              <h1>that Deliver Results</h1>
+            </div>
+
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+              Hi, I’m Abraham, a software developer based in Nairobi,Kenya with a passion for
+              code.
+            </p>
+
+            <Button
+              text="See My Work"
+              className="md:w-80 md:h-16 w-60 h-12"
+              id="counter"
             />
-          </a>
-        </div>
-      </div>
-    </div>
-  )
-}
+          </div>
+        </header>
 
-export default Hero
+        {/* RIGHT: 3D Model or Visual */}
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
+      </div>
+
+      <AnimatedCounter />
+    </section>
+  );
+};
+
+export default Hero;

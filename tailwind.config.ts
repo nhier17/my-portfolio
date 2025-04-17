@@ -29,6 +29,7 @@ const config = {
       colors: {
         black: {
           DEFAULT: "#000",
+          50: "#1c1c21",
           100: "#000319",
           200: '#0E0E10',
           300: '#1C1C21',
@@ -37,6 +38,7 @@ const config = {
         },
         white: {
           DEFAULT: "#FFF",
+          50: "#d9ecff",
           100: "#BEC1DD",
           200: "#C1C2D3",
           800: '#E4E4E6',
@@ -45,7 +47,8 @@ const config = {
           500: '#62646C',
         },
         blue: {
-          "100": "#E4ECFF",
+          50: "#839cb5",
+          100: "#E4ECFF",
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import { navItems } from "@/data";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -21,11 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-      suppressHydrationWarning={true} 
+    <html lang="en" className="dark">
+      <body 
       className={manrope.className}>
-      <FloatingNav navItems={navItems} />
+      <Navbar />
       <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -35,6 +34,7 @@ export default function RootLayout({
         
         {children}
         </ThemeProvider>
+        <Footer />
         </body>
     </html>
   );
